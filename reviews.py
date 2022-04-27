@@ -14,3 +14,12 @@ for d in data:
 
 print('總共有',sum_len, '個字')
 print('平均是',sum_len/len(data))
+
+new = []
+for d in data:
+	if len(d) < 100 :
+		new.append(d)
+
+print('一共有',len(new),'筆留言小於100')
+print(new[0])
+print(new[5])
